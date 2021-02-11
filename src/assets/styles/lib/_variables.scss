@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500&family=Roboto:wght@400;500&display=swap');
+    
+//*******$Settings********//
+*{
+    margin:0px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: unset;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+*:focus{
+    outline: unset;
+}
+
+//*******$COLORS**********//
+//Brand colors
+$color-primary:#043AF9; 
+$color-secondary: #0656F7;
+$color-complementary:#FF4400;
+$color-complementary-2:#FFB54C;
+//Backgrounds
+$color-translucid-primary: rgba(13, 70, 242, 0.85);
+$color-translucid-gray:rgba(239, 243, 246, 0.7);
+//Text colors
+$text-color: #021630;
+
+//***********Fonts**********//
+//Brand fonts
+$titles: 'Barlow Condensed', sans-serif;
+$lorem-ipsum: 'Roboto', sans-serif;
+
+//**********Sizes**********//
+$spacing-card: 10px;
+$spacing-paraphs:20px;
+$spacing-section: 60px;
