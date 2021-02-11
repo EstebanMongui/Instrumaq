@@ -1,0 +1,53 @@
+@import "../../assets/styles/lib/variables";
+
+.NavBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 91px;
+    height: auto;
+    width: 100vw;
+    padding: 0px 90px;
+}
+
+.NavBar__Menu ul{
+    display: flex;
+    font-family: $lorem-ipsum;
+    color: $color-secondary;
+}
+.NavBar__Menu a{
+    margin: 0 $spacing-card;
+    font-size: 2em;
+    color: $color-secondary;
+}
+.Logo img{
+    height: 78px;
+    width: auto;
+}
+
+@media screen and (max-width:768px){
+    .NavBar{
+        padding: 0px 60px;
+    }
+    .Logo img{
+        height: 50px;
+        width: auto;
+    }
+    .NavBar__Menu a{
+        font-size: 1.5em;
+    }
+
+}
+@media screen and (max-width:425px){
+    .NavBar{
+        padding: 0px 20px;
+    }
+    .Logo img{
+        height: 45px;
+        width: auto;
+    }
+    .NavBar__Menu a{
+        font-size: 1em;
+    }
+
+}
