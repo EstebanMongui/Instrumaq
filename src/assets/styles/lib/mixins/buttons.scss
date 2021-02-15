@@ -1,0 +1,26 @@
+@import "../variables";
+
+@mixin ContactButton($button-color:white){
+    height: 56px;
+    width: 228px;
+    border-radius: 10px;
+    background-color:$button-color;
+    font-family: $lorem-ipsum;
+    text-align: center;
+    line-height: 56px;
+    font-size: 1.5em;
+    font-weight: 500;
+    box-shadow: 0 4px 4px rgba(0,0,0,.25%);
+    transition: 7ms;
+    @media screen and (max-width:425px) {
+        height: 38px;
+        width: 154px;
+        font-size: 1.3em;
+        line-height: 38px;
+    }
+    &:hover{
+        background-color: $color-secondary;
+        color: white;
+        cursor: pointer;
+    }
+}
