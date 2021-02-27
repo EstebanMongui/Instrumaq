@@ -1,0 +1,25 @@
+@import "../../assets/styles/lib/variables";
+
+.Footer{
+    max-height: 200px;
+    width: 100vw;
+    height: 200px;
+    background-color: $color-primary;
+    font-family: $lorem-ipsum;
+    text-align: center;
+}
+.Footer__Logo{
+    max-height: 64px;
+    max-width: 186px;
+    text-align: center;
+    margin: 15px;
+    overflow: hidden;
+}
+.Footer__Logo img{
+    object-fit: fill;
+}
+.Footer h3{
+    font-size: 2em;
+    font-weight: 400px;
+    color: white;
+}
