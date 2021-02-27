@@ -1,0 +1,103 @@
+@import "../../assets/styles/lib/variables";
+@import "../../assets/styles/lib/mixins/buttons.scss";
+.Hero{
+    width: 100vw;
+    height: 100vh;
+}
+.__Wraper{
+    display:grid;
+    grid-template: 100vh / 32vw 34vw 32vw;
+    column-gap: 15px;
+}
+.__Wraper div figure{
+    height: 100%;
+    overflow: hidden;
+    align-content: center;
+}
+.__Wraper div img{
+    object-fit: cover;
+    height: 100%;
+}
+.__Image1{
+    overflow: hidden;
+    display: grid;
+    grid-template: 60vh 40vh / 100%;
+    row-gap: 15px;
+}
+._Image1 div{
+    height: 100%;
+    overflow: hidden;
+}
+.__Image1 img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.__Content{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: $color-translucid-primary;
+}
+.__Content:hover{
+    cursor: default;
+}
+.__Content h1{
+    text-align: center;
+    max-width: 600px;
+    height: auto;
+    font-size: 5.33em;
+    font-weight: 500;
+    font-family: $titles;
+    margin-bottom: $spacing-paraphs;
+}
+.__Content h3{
+    text-align: center;
+    max-width: 510px;
+    height: auto;
+    font-family: $lorem-ipsum;
+    font-size: 1.5em;
+}
+.__ContactButton{
+    @include ContactButton;
+    margin-top: $spacing-section;
+}
+.__Content ul{
+    display: flex;
+    margin-top: $spacing-section;
+    font-family: $lorem-ipsum;
+}
+.__Content li{
+    margin: 0 18.5px;
+    font-size: 2em;
+    font-weight: 500;
+    text-align: center;
+}
+.__Content div{
+    height: 25px;
+    width: 3px;
+    background-color: $color-complementary;
+}
+
+@media screen and (max-width:426px){
+    .__Wraper{
+        grid-template: 100vh / 0vw 100vw 0vw;
+        column-gap: 0vw;
+    }
+    .__Content h1{
+        font-size: 3em;
+        max-width: 300px;
+    }
+    .__Content li{
+        font-size: 1.5em;
+        margin: 0 11px;
+    }
+}
