@@ -1,0 +1,49 @@
+{
+    "Services":[
+        {
+            "id":1,
+            "machineName":"Calderas",
+            "services":"",
+            "images":["https://storage.cloud.google.com/instrumaq/Montaje%20de%20calderas-min.jpg"],
+            "machineTypes":[""]
+        },
+        {
+            "id":2,
+            "machineName":"Calderas",
+            "services":"",
+            "images":["https://storage.cloud.google.com/instrumaq/Montaje%20de%20calderas-min.jpg"],
+            "machineTypes":[""]
+        },
+        {
+            "id":3,
+            "machineName":"Calderas",
+            "services":"",
+            "images":["https://storage.cloud.google.com/instrumaq/Montaje%20de%20calderas-min.jpg"],
+            "machineTypes":[""]
+        },
+        {
+            "id":4,
+            "machineName":"Calderas",
+            "services":"",
+            "images":["https://storage.cloud.google.com/instrumaq/Montaje%20de%20calderas-min.jpg"],
+            "machineTypes":[""]
+        }
+    ],
+    "Generalservices":[
+        {
+            "id":1,
+            "name":"Matenimiento preventivo",
+            "description":"Conservamos sus equipos, garantizando su buen funcionamiento y fiabilidad y pueden ser: Diario, semanal, mensual, trimestral, semestral y anual"
+        },
+        {
+            "id":2,
+            "name":"Matenimiento correctivo",
+            "description":"De acuerdo a nuestra experiencia se pone en condiciones de funcionamiento lo más pronto aquellos equipos que tienen en proceso o han dejado de operar."
+        },
+        {
+            "id":3,
+            "name":"Matenimiento predictivo",
+            "description":"Con equipos especiales podemos detectar posibles fallas y defectos de las máquina para evitar los pares repentinos"
+        }
+    ]
+}
