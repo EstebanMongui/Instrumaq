@@ -1,0 +1,50 @@
+@import "../../assets/styles/lib/variables";
+
+.AboutUs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 213px;
+    height: 50vh;
+    width: 100vw;
+    background-color: $color-translucid-gray;
+}
+.AboutUs div{
+    text-align: center;
+    width: 33vw;
+    padding: 23px 0px;
+    color:$text-color;
+}
+.AboutUs div h1{
+    font-size: 3em;
+    font-family: $titles;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.AboutUs div h3{
+    padding: 0em 2em;
+    font-size: 1.5em;
+    font-family: $lorem-ipsum;
+    font-weight: 400;
+}
+.divisor{
+    height: 100%;
+    max-height: 150px;
+    max-width: 3px;
+    background-color: $color-complementary;
+}
+
+@media screen and (max-width:768px){
+    .AboutUs{
+        overflow-x: scroll;
+    }
+    .AboutUs div{
+        width: 100vw;
+    }
+    .AboutUs div h1{
+        width: 100vw;
+    }
+    .divisor{
+        display: none;
+    }
+}
