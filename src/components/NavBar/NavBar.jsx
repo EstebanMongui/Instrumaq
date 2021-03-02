@@ -1,7 +1,7 @@
 import React from "react";
 import "./NavBar.scss";
 //Icons
-import Logo from "../../assets/icons/logotipo.png"
+import Logo from "../../assets/icons/logotipo.svg"
 const NavBar = () => {
     return(
         <div className="NavBar">
@@ -10,9 +10,9 @@ const NavBar = () => {
             </figure>
             <nav className="NavBar__Menu">
                 <ul>
-                    <li><a href="">Servicios</a></li>
-                    <li><a href="">Nosotros</a></li>
-                    <li><a href="">Contacto</a></li>
+                    <li><a href="#ServicesSection">Servicios</a></li>
+                    <li><a href="#AboutUsSection">Nosotros</a></li>
+                    <li><a href="#Footer">Contacto</a></li>
                 </ul>
             </nav>
         </div>

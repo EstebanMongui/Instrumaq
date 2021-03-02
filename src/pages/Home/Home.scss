@@ -1,0 +1,85 @@
+@import "../../assets/styles/lib/variables";
+.Home{
+    display: flex;
+    flex-direction: column;
+}
+.Home h2{
+    text-align: center;
+    font-family: $titles;
+    font-size: 4em;
+    font-weight: 500;
+    color: $color-secondary;
+}
+.Home__Container{
+    position: relative;
+    z-index: 2;
+}
+.NavBar__Container{
+    position: absolute;
+    background-color: white;
+    z-index: 4;
+}
+#ServicesSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+#ServicesSection h2{
+    margin: 60px 0px 0px 0px;
+}
+#ServiceCards{
+    position: relative;
+    z-index: 2;
+}
+.BackgroundImage{
+    position: absolute;
+    z-index: 1;
+    top: 165vh;
+    max-height: 571px;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.BackgroundImage img{
+    object-fit: fill;
+    width: 100vw;
+}
+#AboutUsSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+.__Subtitle{
+    font-size: 3em;
+    font-weight: 400;
+    font-family: $titles;
+    color: $color-secondary;
+}
+#AboutUsSection h2{
+    position: relative;
+    z-index: 2;
+    margin: 60px;
+}
+#AboutUs{
+    position: relative;
+    z-index: 2;
+}
+
+@media screen and(max-width:425px){
+    #ServicesSection h2{
+        margin:30px;
+    }
+    #AboutUsSection h2{
+        margin: 30px;
+    }
+    #ServicesSection{
+        height: 70vh;
+    }
+    #AboutUsSection{
+        height: 80vh;
+    }
+}
